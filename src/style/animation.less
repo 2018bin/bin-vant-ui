@@ -1,0 +1,139 @@
+@import './var';
+
+@keyframes bin-slide-up-enter {
+  from {
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+@keyframes bin-slide-up-leave {
+  to {
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+@keyframes bin-slide-down-enter {
+  from {
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes bin-slide-down-leave {
+  to {
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes bin-slide-left-enter {
+  from {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes bin-slide-left-leave {
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes bin-slide-right-enter {
+  from {
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes bin-slide-right-leave {
+  to {
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes bin-fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes bin-fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes bin-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bin-fade {
+  &-enter-active {
+    animation: @animation-duration-base bin-fade-in both
+      @animation-timing-function-enter;
+  }
+
+  &-leave-active {
+    animation: @animation-duration-base bin-fade-out both
+      @animation-timing-function-leave;
+  }
+}
+
+.bin-slide-up {
+  &-enter-active {
+    animation: bin-slide-up-enter @animation-duration-base both
+      @animation-timing-function-enter;
+  }
+
+  &-leave-active {
+    animation: bin-slide-up-leave @animation-duration-base both
+      @animation-timing-function-leave;
+  }
+}
+
+.bin-slide-down {
+  &-enter-active {
+    animation: bin-slide-down-enter @animation-duration-base both
+      @animation-timing-function-enter;
+  }
+
+  &-leave-active {
+    animation: bin-slide-down-leave @animation-duration-base both
+      @animation-timing-function-leave;
+  }
+}
+
+.bin-slide-left {
+  &-enter-active {
+    animation: bin-slide-left-enter @animation-duration-base both
+      @animation-timing-function-enter;
+  }
+
+  &-leave-active {
+    animation: bin-slide-left-leave @animation-duration-base both
+      @animation-timing-function-leave;
+  }
+}
+
+.bin-slide-right {
+  &-enter-active {
+    animation: bin-slide-right-enter @animation-duration-base both
+      @animation-timing-function-enter;
+  }
+
+  &-leave-active {
+    animation: bin-slide-right-leave @animation-duration-base both
+      @animation-timing-function-leave;
+  }
+}
