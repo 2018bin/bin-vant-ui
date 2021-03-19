@@ -1,7 +1,7 @@
 # bin-vant-ui
  
 
-<h1 align="center">bin-vant-ui</h1>
+##### bin-vant-ui 
 
 <p align="center">仿照vant@next重新写的组件库</p>
 

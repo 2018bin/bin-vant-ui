@@ -3,11 +3,18 @@
 .DS_Store
 .idea
 .vscode
+.eslintignore
+
 
 # npm
+docs
 node_modules
 package-lock.json
-
+src
+README.md
+vant.config.js
+babel.config.js
+yarn.lock
 # dist file
 es
 lib
