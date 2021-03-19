@@ -50,10 +50,8 @@ app.use(Button);
 
 | 项目 | 描述 |
 | --- | --- |
-
 | [vant-use](https://youzan.github.io/vant/vant-use/) | Vant的集成逻辑 |
 | [vant-cli](https://github.com/youzan/vant/tree/dev/packages/vant-cli) | Vant组件库的脚手架 |
 | [vant-icons](https://github.com/youzan/vant/tree/dev/packages/vant-icons) | Vant icons |
-
 browsers |
  
