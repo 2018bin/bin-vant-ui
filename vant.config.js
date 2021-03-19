@@ -64,16 +64,16 @@ module.exports = {
 
                 ],
             },
-            {
-                title: '表单组件',
-                items: [
-                    {
-                        path: 'form-item',
-                        title: 'form-item 输入框',
-                    },
+            // {
+            //     title: '表单组件',
+            //     items: [
+            //         {
+            //             path: 'form-item',
+            //             title: 'form-item 输入框',
+            //         },
                    
-                ],
-            },
+            //     ],
+            // },
             {
                 title: '反馈组件',
                 items: [
