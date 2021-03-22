@@ -1,8 +1,6 @@
 # bin-vant-ui
  
 
-##### bin-vant-ui 
-
 <p align="center">仿照vant@next重新写的组件库</p>
 
  
@@ -11,20 +9,8 @@
   🔥 <a href="https://vant-contrib.gitee.io/vant">文档网站 </a>
 </p>
 
----
 
-## Features
 
-- 65+ Reusable components
-- 1kb Component average size (min+gzip)
-- 90%+ Unit test coverage
-- Extensive documentation and demos
-- Support Vue 2 & Vue 3
-- Support Tree Shaking
-- Support Custom Theme
-- Support i18n
-- Support TS
-- Support SSR
 
 ## Install
 
